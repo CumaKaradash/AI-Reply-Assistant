@@ -1,0 +1,130 @@
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  width: 350px;
+  margin: 0;
+  padding: 20px;
+  background-color: #F9FAFB;
+  color: #111827;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+p {
+  font-size: 0.95rem;
+  color: #4B5563;
+  line-height: 1.5;
+}
+
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: #111827;
+  background-color: #FFFFFF;
+  transition: border-color 0.2s;
+}
+
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2563EB;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563EB;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #1D4ED8;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.help-link {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 0.875rem;
+  color: #2563EB;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.help-link:hover {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+#reset-settings {
+  width: auto;
+  background: none;
+  color: #6B7280;
+  font-size: 1.2rem;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#reset-settings:hover {
+  background-color: #F3F4F6;
+  color: #111827;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.result-area {
+  margin-top: 15px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #374151;
+}

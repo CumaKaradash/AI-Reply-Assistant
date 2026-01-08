@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>AI Email Replier</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Kurulum Ekranı -->
+    <div id="setup-screen">
+      <h2>Hoş Geldiniz</h2>
+      <p>Devam etmek için Gemini API anahtarınızı girin.</p>
+      <input type="password" id="api-key-input" placeholder="Gemini API Key yapıştırın">
+      <button id="save-key-btn">Kaydet ve Başla</button>
+      <a href="https://aistudio.google.com/app/apikey" target="_blank" class="help-link">Anahtarı nereden alırım?</a>
+    </div>
+
+    <!-- Ana Ekran -->
+    <div id="main-screen" style="display: none;">
+      <div class="header">
+        <h2>Cevap Oluştur</h2>
+        <button id="reset-settings" title="Ayarları Sıfırla">⚙️</button>
+      </div>
+      
+      <div class="form-group">
+        <label for="tone-select">Ton Seçimi:</label>
+        <select id="tone-select">
+          <option value="Kurumsal">Kurumsal</option>
+          <option value="Samimi">Samimi</option>
+          <option value="Teşekkür">Teşekkür</option>
+          <option value="Reddet">Reddet</option>
+        </select>
+      </div>
+
+      <button id="generate-btn">Cevap Oluştur</button>
+      
+      <div class="result-area">
+        <label for="result-text">Oluşturulan Cevap:</label>
+        <textarea id="result-text" readonly placeholder="Cevap burada görünecek..."></textarea>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
