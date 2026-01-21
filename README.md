@@ -1,8 +1,8 @@
-# 🤖 AI Email Replier
+# AI Email Replier
 
 Google'ın **Gemini API** gücünü kullanarak, Gmail üzerindeki e-postalarınızı okuyan ve seçtiğiniz tonda (Resmi, Arkadaşça vb.) saniyeler içinde yanıt taslağı oluşturan yapay zeka asistanı.
 
-## ✨ Özellikler
+## Özellikler
 
 - **Gmail Entegrasyonu:** Açık olan e-postanın içeriğini otomatik algılar.
 - **Gemini 2.5 Flash Model:** Hızlı ve akıllı yanıtlar için en güncel Google modelini kullanır.
@@ -10,7 +10,7 @@ Google'ın **Gemini API** gücünü kullanarak, Gmail üzerindeki e-postaların�
 - **Güvenli API Saklama:** API anahtarınızı yerel tarayıcı hafızasında (`chrome.storage.local`) şifrelemeden saklar (sunucuya göndermez).
 - **Hata Yönetimi:** API hatalarını veya boş içerikleri kullanıcıya bildirir.
 
-## ⚙️ Kurulum ve Ayarlar
+## Kurulum ve Ayarlar
 
 ### 1. API Anahtarı Alma
 Bu eklentiyi kullanmak için Google AI Studio üzerinden ücretsiz bir API anahtarı almanız gerekir:
@@ -27,5 +27,5 @@ Bu eklentiyi kullanmak için Google AI Studio üzerinden ücretsiz bir API anaht
 4. Bir ton seçin ve **"Cevap Oluştur"** butonuna basın.
 5. Yapay zekanın ürettiği cevabı kopyalayıp kullanın.
 
-## ⚠️ Gizlilik Notu
+## Gizlilik Notu
 Bu eklenti e-posta içeriğinizi **sadece** yanıt oluşturmak amacıyla o anlık olarak Google Gemini API'sine gönderir. Verileriniz başka bir sunucuda depolanmaz.
